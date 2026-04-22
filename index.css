@@ -1,0 +1,18 @@
+img {
+    width: 250px;
+}
+button {
+    background-color: #dde;
+    color:#112
+}
+
+#mainMenu {
+    background-color: #112;
+    color:#dde;
+    display: flex;
+    flex-direction: row ;
+}
+header {
+        background-color: #112;
+    color:#dde
+}
