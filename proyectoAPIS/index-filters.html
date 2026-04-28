@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoserFilms-Home</title>
+    <link rel="stylesheet" href="indexdark.css"/>
+    <link rel="stylesheet" href="indexdark.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><h1>LoserFilms</h1></a>
+
+
+    <div>
+        <div id="searchNFilter">
+            <div id="searcher">
+               <input onclick="clickInput()" id="searchValue" type="text" placeholder="search"><button id="searchbtn" onclick="search()">search</button>
+            </div>
+
+            <h3><a href="index-filters.html">Filter by:</a></h3>
+            <p>click to include, doubleclick to exclude</p>
+
+            <div class="filterCategories">
+                <h4 onclick="showYears()">Years</h4>
+                <div id="filterYears" class="filters">
+                    <h5 onclick="getYear50()" ondblclick="hideYear50()">1960s</h5>
+                    <h5 onclick="getYear60()" ondblclick="hideYear60()">1960s</h5>
+                    <h5 onclick="getYear70()" ondblclick="hideYear70()">1970s</h5>
+                    <h5 onclick="getYear80()" ondblclick="hideYear80()">1980s</h5>
+                    <h5 onclick="getYear90()" ondblclick="hideYear90()">1990s</h5>
+                    <h5 onclick="getYear00()" ondblclick="hideYear00()">2000s</h5>
+                    <h5 onclick="getYear10()" ondblclick="hideYear10()">2010s</h5>
+                    <h5 onclick="getYear10()" ondblclick="hideYear10()">2020s</h5>
+                </div>
+            </div>
+            </div>
+            <div class="filterCategories">
+                <h4 onclick="showGenres()">Genres</h4>
+                <div id="filterGenres" class="filters">
+                    <h5 id="btnAction" onclick="getGenreAction()" ondblclick="hideGenreAction()">Action</h5>
+                    <h5 id="btnAdventure" onclick="getGenreAdventure()" ondblclick="hideGenreAdventure()">Adventure</h5>
+                    <h5 id="btnBiography" onclick="getGenreBiography()" ondblclick="hideGenreBiography()">Biography</h5>
+                    <h5 id="btnComedy" onclick="getGenreComedy()" ondblclick="hideGenreComedy()">Comedy</h5>
+                    <h5 id="btnCrime" onclick="getGenreCrime()" ondblclick="hideGenreCrime()">Crime</h5>
+                    <h5 id="btnDrama" onclick="getGenreDrama()" ondblclick="hideGenreDrama()">Drama</h5>
+                    <h5 id="btnFantasy" onclick="getGenreFantasy()" ondblclick="hideGenreFantasy()">Fantasy</h5>
+                    <h5 id="btnScifi" onclick="getGenreScifi()" ondblclick="hideGenreScifi()">Sci-fi</h5>
+                    <h5 id="btnWestern" onclick="getGenreWestern()" ondblclick="hideGenreWestern()">Western</h5>
+                </div>
+            </div>
+            
+            <div class="filterCategories">
+                <h4 onclick="showRatings()">Ratings</h4>
+                <div id="filterRatings" class="filters">
+                    <h5 onclick="getRating5()" ondblclick="hideRating5()">5 estrellas</h5>
+                    <h5 onclick="getRating4()" ondblclick="hideRating4()">4-5 estrellas</h5>
+                    <h5 onclick="getRating3()" ondblclick="hideRating3()">4-3 estrellas</h5>
+                    <h5 onclick="getRating2()" ondblclick="hideRating2()">3-2 estrellas</h5>
+                    <h5 onclick="getRating1()" ondblclick="hideRating1()">2-1 estrellas</h5>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <main>
+        <a href="index-redirect.html"><div id="mov"></div></a>
+    </main>
+
+
+    <footer>
+        
+        <p><span>Loserfilms</span> is not responsible for anything ever <br> Need more info? No you donnot</p>
+        
+    </footer>
+    <script src="index-filters.js"></script>
+    <script src="index-searchbar.js"></script>
+</body>
+</html>

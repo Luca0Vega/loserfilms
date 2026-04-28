@@ -1,0 +1,129 @@
+*{
+    font-size:20px;
+    color:#dde;
+    font-family:sans-serif ;
+
+}
+
+body{
+    background-color: #112;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    border:#889, solid, 1.5px;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+
+}
+h2:hover{
+    color: #889;
+    text-align: center;
+}
+
+
+
+
+.movDesc{
+    background-color: #445;
+}
+
+
+button {
+    background-color: #dde;
+    color:#112;
+    border: none;
+    border-radius: 4px;
+}
+
+
+#mov {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3rem;
+    width:250px;
+    background-color: #445;
+    width: 350px;
+    height: 600px;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.movinfo {
+    display: flex;
+    flex-direction: column;
+    background-color: #445;
+}
+
+.movfilterinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #445;
+    width: 250px;
+}
+
+#mainMenu {
+    background-color: #112;
+    color:#dde;
+    
+}
+header {
+    background-color: #445;
+    color:#dde;
+    display:flex;
+    flex-direction: row;
+    ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.filterSelect {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    background-color: #445;
+    color:#dde;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.inputFilter{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    background-color: #445;
+    color:#dde;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
