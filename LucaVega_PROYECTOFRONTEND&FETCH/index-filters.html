@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoserFilms-Sortby</title>
+    <link rel="stylesheet" href="indexdark.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="light/evilindex-filters.html"><img id="logofondo" src="../imgs/logofondo.png"></a>
+        <div id="headerElements">
+        <a href="index.html"><h1>LoserFilms</h1></a>
+
+    
+    <div>
+        <div id="searchNFilter">
+            <div id="searcher">
+               <input onclick="clickInput()" id="searchValue" type="text" placeholder="type here"><button id="searchbtn" onclick="search()">search</button>
+            </div>
+            </div>
+            </div>
+            
+        
+        </div>
+        <div id="allFilters">
+        <div class="filterCategories">
+                <h4 onclick="showYears()">Years:</h4>
+                <div id="filterYears" class="filters">
+                    <h5 onclick="getYear50()">1950s</h5>
+                    <h5 onclick="getYear60()">1960s</h5>
+                    <h5 onclick="getYear70()">1970s</h5>
+                    <h5 onclick="getYear80()">1980s</h5>
+                    <h5 onclick="getYear90()">1990s</h5>
+                    <h5 onclick="getYear00()">2000s</h5>
+                    <h5 onclick="getYear10()">2010s</h5>
+                    <h5 onclick="getYear20()">2020s</h5>
+                </div>
+            </div>
+            </div>
+            <div class="filterCategories">
+                <h4 onclick="showGenres()">Genres:</h4>
+                <div id="filterGenres" class="filters">
+                    <h5 id="btnAction" onclick="getGenreAction()">Action</h5>
+                    <h5 id="btnAdventure" onclick="getGenreAdventure()">Adventure</h5>
+                    <h5 id="btnBiography" onclick="getGenreBiography()">Biography</h5>
+                    <h5 id="btnComedy" onclick="getGenreComedy()">Comedy</h5>
+                    <h5 id="btnCrime" onclick="getGenreCrime()">Crime</h5>
+                    <h5 id="btnDrama" onclick="getGenreDrama()">Drama</h5>
+                    <h5 id="btnFantasy" onclick="getGenreFantasy()">Fantasy</h5>
+                    <h5 id="btnScifi" onclick="getGenreScifi()">Sci-fi</h5>
+                    <h5 id="btnWestern" onclick="getGenreWestern()">Western</h5>
+                </div>
+            </div>
+            
+            <div class="filterCategories">
+                <h4 onclick="showRatings()">Ratings:</h4>
+                <div id="filterRatings" class="filters">
+                    <h5 onclick="getRating5()">5 estrellas</h5>
+                    <h5 onclick="getRating4()">4-5 estrellas</h5>
+                    <h5 onclick="getRating3()">4-3 estrellas</h5>
+                    <h5 onclick="getRating2()">3-2 estrellas</h5>
+                    <h5 onclick="getRating1()">2-1 estrellas</h5>
+                </div>
+            </div>
+
+    </div>
+</header>
+
+
+    <main>
+
+        <a href="index-redirect.html"><div id="mov"></div></a>
+    </main>
+
+
+    <footer>
+        
+        <p><span>Loserfilms</span> is not responsible for anything ever <br> Need more info? No you donnot</p>
+        
+    </footer>
+    <script src="index-filters.js"></script>
+</body>
+</html>

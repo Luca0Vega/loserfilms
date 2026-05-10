@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoserFilms-Home</title>
+    <link id="dark" rel="stylesheet" href="indexdark.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="light/evilindex.html"><img id="logofondo" src="../imgs/logofondo.png"></a>
+        <div id="headerElements">
+        <a href="index.html"><h1>LoserFilms</h1></a>
+
+
+    <div id="navContent">
+        <div id="searchNFilter">
+            <div id="searcher">
+               <input onchange="clickInput()" id="searchValue" type="text" placeholder="type here"><button id="searchbtn" onclick="search()">search</button>
+            </div>
+
+            <h3><a href="index-filters.html">or Sort by:</a></h3>
+            </div>
+    </div>        
+    </div>
+    </header>
+
+
+    <main>
+            <a href="index-redirect.html"><div onclick="saveMovie()" id="mov"></div></a>
+    </main>
+
+
+    <footer>
+
+        <p><span>Loserfilms</span> is not responsible for anything ever <br> Need more info? No you donnot</p>
+
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="index-searchbar.js"></script>
+    <script src="index-colormode.js"></script>
+    <script src="index-recentmovie.js"></script>
+</body>
+</html>
